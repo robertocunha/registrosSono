@@ -98,6 +98,21 @@
     transition: opacity 0.3s ease;
   }
 
+  .link-planilha {
+    text-align: center;
+    font-size: 13px;
+    margin-top: 4px;
+  }
+
+  .link-planilha a {
+    color: var(--azul-dormir-hover);
+    text-decoration: none;
+  }
+
+  .link-planilha a:hover {
+    text-decoration: underline;
+  }
+
   .status.sucesso { color: #8fd19e; }
   .status.erro { color: #e08585; }
 
@@ -121,6 +136,10 @@
   </button>
 
   <div class="status" id="status">&nbsp;</div>
+
+  <div class="link-planilha">
+    <a href="https://docs.google.com/spreadsheets/d/1-UYhnZ4z1ZCufsG_h8sMt3zrHLh7iJOlP8E7iGlsRgU/edit?gid=0#gid=0" target="_blank" rel="noopener noreferrer">Abrir planilha</a>
+  </div>
 </div>
 
 <script>
